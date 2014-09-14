@@ -1,0 +1,491 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D0D632EC19C60249006AF00D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0D632EB19C60249006AF00D /* Foundation.framework */; };
+		D0D632EE19C60249006AF00D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0D632ED19C60249006AF00D /* CoreGraphics.framework */; };
+		D0D632F019C60249006AF00D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0D632EF19C60249006AF00D /* UIKit.framework */; };
+		D0D632F619C60249006AF00D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D0D632F419C60249006AF00D /* InfoPlist.strings */; };
+		D0D632F819C60249006AF00D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D0D632F719C60249006AF00D /* main.m */; };
+		D0D632FC19C60249006AF00D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D0D632FB19C60249006AF00D /* AppDelegate.m */; };
+		D0D632FF19C60249006AF00D /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D0D632FD19C60249006AF00D /* Main_iPhone.storyboard */; };
+		D0D6330219C60249006AF00D /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D0D6330019C60249006AF00D /* Main_iPad.storyboard */; };
+		D0D6330519C60249006AF00D /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D0D6330419C60249006AF00D /* MainViewController.m */; };
+		D0D6330819C60249006AF00D /* FlipsideViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D0D6330719C60249006AF00D /* FlipsideViewController.m */; };
+		D0D6330A19C60249006AF00D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D0D6330919C60249006AF00D /* Images.xcassets */; };
+		D0D6331119C6024A006AF00D /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0D6331019C6024A006AF00D /* XCTest.framework */; };
+		D0D6331219C6024A006AF00D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0D632EB19C60249006AF00D /* Foundation.framework */; };
+		D0D6331319C6024A006AF00D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0D632EF19C60249006AF00D /* UIKit.framework */; };
+		D0D6331B19C6024A006AF00D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D0D6331919C6024A006AF00D /* InfoPlist.strings */; };
+		D0D6331D19C6024A006AF00D /* simpletimerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D0D6331C19C6024A006AF00D /* simpletimerTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D0D6331419C6024A006AF00D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D0D632E019C60249006AF00D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D0D632E719C60249006AF00D;
+			remoteInfo = simpletimer;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D0D632E819C60249006AF00D /* simpletimer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = simpletimer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D0D632EB19C60249006AF00D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		D0D632ED19C60249006AF00D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		D0D632EF19C60249006AF00D /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		D0D632F319C60249006AF00D /* simpletimer-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "simpletimer-Info.plist"; sourceTree = "<group>"; };
+		D0D632F519C60249006AF00D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		D0D632F719C60249006AF00D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D0D632F919C60249006AF00D /* simpletimer-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "simpletimer-Prefix.pch"; sourceTree = "<group>"; };
+		D0D632FA19C60249006AF00D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D0D632FB19C60249006AF00D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D0D632FE19C60249006AF00D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
+		D0D6330119C60249006AF00D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
+		D0D6330319C60249006AF00D /* MainViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		D0D6330419C60249006AF00D /* MainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		D0D6330619C60249006AF00D /* FlipsideViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FlipsideViewController.h; sourceTree = "<group>"; };
+		D0D6330719C60249006AF00D /* FlipsideViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FlipsideViewController.m; sourceTree = "<group>"; };
+		D0D6330919C60249006AF00D /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		D0D6330F19C6024A006AF00D /* simpletimerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = simpletimerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D0D6331019C6024A006AF00D /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		D0D6331819C6024A006AF00D /* simpletimerTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "simpletimerTests-Info.plist"; sourceTree = "<group>"; };
+		D0D6331A19C6024A006AF00D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		D0D6331C19C6024A006AF00D /* simpletimerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = simpletimerTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D0D632E519C60249006AF00D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0D632EE19C60249006AF00D /* CoreGraphics.framework in Frameworks */,
+				D0D632F019C60249006AF00D /* UIKit.framework in Frameworks */,
+				D0D632EC19C60249006AF00D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D0D6330C19C6024A006AF00D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0D6331119C6024A006AF00D /* XCTest.framework in Frameworks */,
+				D0D6331319C6024A006AF00D /* UIKit.framework in Frameworks */,
+				D0D6331219C6024A006AF00D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D0D632DF19C60249006AF00D = {
+			isa = PBXGroup;
+			children = (
+				D0D632F119C60249006AF00D /* simpletimer */,
+				D0D6331619C6024A006AF00D /* simpletimerTests */,
+				D0D632EA19C60249006AF00D /* Frameworks */,
+				D0D632E919C60249006AF00D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D0D632E919C60249006AF00D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D0D632E819C60249006AF00D /* simpletimer.app */,
+				D0D6330F19C6024A006AF00D /* simpletimerTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D0D632EA19C60249006AF00D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D0D632EB19C60249006AF00D /* Foundation.framework */,
+				D0D632ED19C60249006AF00D /* CoreGraphics.framework */,
+				D0D632EF19C60249006AF00D /* UIKit.framework */,
+				D0D6331019C6024A006AF00D /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D0D632F119C60249006AF00D /* simpletimer */ = {
+			isa = PBXGroup;
+			children = (
+				D0D632FA19C60249006AF00D /* AppDelegate.h */,
+				D0D632FB19C60249006AF00D /* AppDelegate.m */,
+				D0D632FD19C60249006AF00D /* Main_iPhone.storyboard */,
+				D0D6330019C60249006AF00D /* Main_iPad.storyboard */,
+				D0D6330319C60249006AF00D /* MainViewController.h */,
+				D0D6330419C60249006AF00D /* MainViewController.m */,
+				D0D6330619C60249006AF00D /* FlipsideViewController.h */,
+				D0D6330719C60249006AF00D /* FlipsideViewController.m */,
+				D0D6330919C60249006AF00D /* Images.xcassets */,
+				D0D632F219C60249006AF00D /* Supporting Files */,
+			);
+			path = simpletimer;
+			sourceTree = "<group>";
+		};
+		D0D632F219C60249006AF00D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D0D632F319C60249006AF00D /* simpletimer-Info.plist */,
+				D0D632F419C60249006AF00D /* InfoPlist.strings */,
+				D0D632F719C60249006AF00D /* main.m */,
+				D0D632F919C60249006AF00D /* simpletimer-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D0D6331619C6024A006AF00D /* simpletimerTests */ = {
+			isa = PBXGroup;
+			children = (
+				D0D6331C19C6024A006AF00D /* simpletimerTests.m */,
+				D0D6331719C6024A006AF00D /* Supporting Files */,
+			);
+			path = simpletimerTests;
+			sourceTree = "<group>";
+		};
+		D0D6331719C6024A006AF00D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D0D6331819C6024A006AF00D /* simpletimerTests-Info.plist */,
+				D0D6331919C6024A006AF00D /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D0D632E719C60249006AF00D /* simpletimer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D0D6332019C6024A006AF00D /* Build configuration list for PBXNativeTarget "simpletimer" */;
+			buildPhases = (
+				D0D632E419C60249006AF00D /* Sources */,
+				D0D632E519C60249006AF00D /* Frameworks */,
+				D0D632E619C60249006AF00D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = simpletimer;
+			productName = simpletimer;
+			productReference = D0D632E819C60249006AF00D /* simpletimer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D0D6330E19C6024A006AF00D /* simpletimerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D0D6332319C6024A006AF00D /* Build configuration list for PBXNativeTarget "simpletimerTests" */;
+			buildPhases = (
+				D0D6330B19C6024A006AF00D /* Sources */,
+				D0D6330C19C6024A006AF00D /* Frameworks */,
+				D0D6330D19C6024A006AF00D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D0D6331519C6024A006AF00D /* PBXTargetDependency */,
+			);
+			name = simpletimerTests;
+			productName = simpletimerTests;
+			productReference = D0D6330F19C6024A006AF00D /* simpletimerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D0D632E019C60249006AF00D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = PeterMay;
+				TargetAttributes = {
+					D0D6330E19C6024A006AF00D = {
+						TestTargetID = D0D632E719C60249006AF00D;
+					};
+				};
+			};
+			buildConfigurationList = D0D632E319C60249006AF00D /* Build configuration list for PBXProject "simpletimer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D0D632DF19C60249006AF00D;
+			productRefGroup = D0D632E919C60249006AF00D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D0D632E719C60249006AF00D /* simpletimer */,
+				D0D6330E19C6024A006AF00D /* simpletimerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D0D632E619C60249006AF00D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0D6330219C60249006AF00D /* Main_iPad.storyboard in Resources */,
+				D0D6330A19C60249006AF00D /* Images.xcassets in Resources */,
+				D0D632FF19C60249006AF00D /* Main_iPhone.storyboard in Resources */,
+				D0D632F619C60249006AF00D /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D0D6330D19C6024A006AF00D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0D6331B19C6024A006AF00D /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D0D632E419C60249006AF00D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0D632FC19C60249006AF00D /* AppDelegate.m in Sources */,
+				D0D6330519C60249006AF00D /* MainViewController.m in Sources */,
+				D0D6330819C60249006AF00D /* FlipsideViewController.m in Sources */,
+				D0D632F819C60249006AF00D /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D0D6330B19C6024A006AF00D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0D6331D19C6024A006AF00D /* simpletimerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D0D6331519C6024A006AF00D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D0D632E719C60249006AF00D /* simpletimer */;
+			targetProxy = D0D6331419C6024A006AF00D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D0D632F419C60249006AF00D /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D0D632F519C60249006AF00D /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		D0D632FD19C60249006AF00D /* Main_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D0D632FE19C60249006AF00D /* Base */,
+			);
+			name = Main_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		D0D6330019C60249006AF00D /* Main_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D0D6330119C60249006AF00D /* Base */,
+			);
+			name = Main_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		D0D6331919C6024A006AF00D /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D0D6331A19C6024A006AF00D /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D0D6331E19C6024A006AF00D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D0D6331F19C6024A006AF00D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D0D6332119C6024A006AF00D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "simpletimer/simpletimer-Prefix.pch";
+				INFOPLIST_FILE = "simpletimer/simpletimer-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		D0D6332219C6024A006AF00D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "simpletimer/simpletimer-Prefix.pch";
+				INFOPLIST_FILE = "simpletimer/simpletimer-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		D0D6332419C6024A006AF00D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/simpletimer.app/simpletimer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "simpletimer/simpletimer-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "simpletimerTests/simpletimerTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		D0D6332519C6024A006AF00D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/simpletimer.app/simpletimer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "simpletimer/simpletimer-Prefix.pch";
+				INFOPLIST_FILE = "simpletimerTests/simpletimerTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D0D632E319C60249006AF00D /* Build configuration list for PBXProject "simpletimer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D0D6331E19C6024A006AF00D /* Debug */,
+				D0D6331F19C6024A006AF00D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D0D6332019C6024A006AF00D /* Build configuration list for PBXNativeTarget "simpletimer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D0D6332119C6024A006AF00D /* Debug */,
+				D0D6332219C6024A006AF00D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D0D6332319C6024A006AF00D /* Build configuration list for PBXNativeTarget "simpletimerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D0D6332419C6024A006AF00D /* Debug */,
+				D0D6332519C6024A006AF00D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D0D632E019C60249006AF00D /* Project object */;
+}
